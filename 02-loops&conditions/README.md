@@ -7,7 +7,7 @@ In this module we have basic If-else conditions and loops to familiarize with th
     - date +%A gives day of the week in Full (e.g Thursday or Friday)
     - Comparision Values
         - -gt --> Greater than e.g if [ 3 -gt 4 ]; then 
-        - -lt --> less than if [ $input -gt 4 ]; then
+        - -lt --> less than e.g if [ $input -lt 4 ]; then
         - -ne --> Not equal to
         - -eq --> Check if the values are Equal (Preferred for Intergers)
         - -ge --> Greater than or Equal
