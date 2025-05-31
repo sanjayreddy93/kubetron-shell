@@ -20,6 +20,12 @@ function findDay() {
     done
 }
 
+function printNum() {
+    for i in {1..10} # Prints all the numbers from 1-10
+    do
+        echo "$i"
+    done
+}
 
 
 listTeams
@@ -27,3 +33,5 @@ listTeams
 if [ "$?" -eq 0 ]; then
     findDay
 fi
+
+printNum
